@@ -18,14 +18,14 @@ const HomeLayout = () => {
           <Navbar />
         </nav>
       </header>
-      <main className="w-11/12 mx-auto grid gap-4 grid-cols-12 ">
-        <aside className="col-span-2">
+      <main className="w-11/12 mx-auto grid gap-6 grid-cols-12 ">
+        <aside className="col-span-2 h-fit sticky top-0 left-0">
           <LeftAside />
         </aside>
         <section className="col-span-8">
           <Outlet />
         </section>
-        <aside className="col-span-2">
+        <aside className="col-span-2 h-fit sticky top-0 left-0">
           <RightAside />
         </aside>
       </main>

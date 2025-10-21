@@ -11,7 +11,7 @@ const Categories = () => {
           <NavLink
             key={category.id}
             className={({ isActive }) =>
-              `btn border-none bg-base-100 hover:bg-base-200 rounded-lg ${
+              `btn border-none bg-base-100 hover:bg-base-200 rounded-lg text-lg ${
                 isActive ? "bg-base-300 font-bold" : ""
               }`
             }
